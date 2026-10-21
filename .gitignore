@@ -1,0 +1,14 @@
+# 生成物：由 GitHub Actions 在部署时重新构建
+site/
+
+# Python
+__pycache__/
+*.pyc
+
+# 本地工具与预览
+.trae-html-share-packages/
+.preview/
+
+# 操作系统
+.DS_Store
+Thumbs.db
