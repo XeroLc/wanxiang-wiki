@@ -1,0 +1,11 @@
+# 批量改名计划（示例）
+# 复制为 tools/rename-plan.yaml 后填写；建议先加 --dry-run 预览。
+# 所有改名在同一遍替换中完成，不会出现 A→B、B→C 的链式误伤。
+renames: []
+# 示例：
+# - id: domain.yunzhuanzhou
+#   to: 苍梧洲
+#   rename_files: true
+# - id: region.wuzhou
+#   to: 芜洲
+#   rename_files: false
